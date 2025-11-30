@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    animation: container-animation 1 2s;
+}
+
+.card{
+    background-color: rgb(18, 17, 17);
+    color: white;
+    animation: card-animation 1 2s;
+}
+
+.card img{
+    border-bottom-right-radius:5px ;
+    border-bottom-left-radius:5px ;
+}
+
+
+@keyframes card-animation{
+    from{
+        transform: translateX(200px);
+
+    }
+    to{
+
+    }
+
+
+}
